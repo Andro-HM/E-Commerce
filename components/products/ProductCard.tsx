@@ -14,7 +14,7 @@ export default function ProductCard({ product }: Props) {
       <div className="bg-white rounded-xl border hover:shadow-md transition-shadow duration-200 overflow-hidden group">
         <div className="relative aspect-square bg-gray-100">
           <img
-            src={product.image_url ?? 'https://placehold.co/400x400?text=Product'}
+            src={product.image_url ?? 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=400&fit=crop'}
             alt={product.title}
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-200"
           />
